@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+body,
+.clearfix {
+    background-color: white;
+}
+
+
+/*PRICE COLOR CODE START*/
+
+.row .table {
+    padding: 28px 0;
+}
+
+
+/*PRICE BODY CODE START*/
+
+.generic_content {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.generic_content {
+    margin: 0 0 20px 0;
+}
+
+.generic_content .generic_head_content {
+    margin: 0 0 50px 0;
+}
+
+.generic_content .generic_head_content .head_bg {
+    border-width: 90px 1411px 23px 399px;
+    position: absolute;
+}
+
+.generic_content .generic_head_content .head {
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.generic_content .generic_head_content .head span {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.generic_content {
+    padding: 0 0 20px;
+}
+
+.generic_content .price {
+    display: block;
+}
+
+.generic_content .price .sign {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.generic_content .price .currency {
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.generic_content .price .cent {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+.generic_content .month {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+.generic_content .generic_feature_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.generic_content .generic_feature_list ul li {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.generic_content .generic_feature_list ul li .fa {
+    padding: 0 10px;
+}
+
+.generic_content {
+    margin: 20px 0 32px;
+}
+
+.generic_content a {
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    outline: medium none;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (max-width: 320px) {}
+
+@media (max-width: 767px) {
+    .generic_content {
+        margin-bottom: 75px;
+    }
+}
+
+@media (min-width: 900x) and (max-width: 1200px) {
+    .col-md-3 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-4 {
+        float: left;
+        width: 50%;
+    }
+    .generic_content {
+        margin-bottom: 75px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
+
+.head_bg,
+.head,
+.generic_head_content {
+    background-color: white;
+}
+
+.text-center h1,
+.text-center h1 a {
+    font-size: 50px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+// map
+#map {
+    // position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}

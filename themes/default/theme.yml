@@ -1,0 +1,20 @@
+# theme.yml is the theme configuration. This example
+# file contains all configuration keys available.
+version: 1
+types:
+  startpage:
+    template: startpage.html
+  not-found:
+    template: not-found.html
+build:
+  # Here you can specify commands you need to run in order to build
+  # your theme, like generating CSS.
+  before:
+  # If you have sassc installed, uncomment the following lines to test the before-hook functionality.
+  - mkdir -p generated/css
+  - sassc scss/startpage.scss generated/css/startpage.css
+  - sassc scss/common.scss generated/css/common.css
+  - sassc scss/not-found.scss generated/css/not-found.css
+  - sassc scss/table.scss generated/css/table.css
+  - mkdir -p generated/js
+  - cp -r js generated
