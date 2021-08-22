@@ -16,5 +16,6 @@ build:
   - sassc scss/common.scss generated/css/common.css
   - sassc scss/not-found.scss generated/css/not-found.css
   - sassc scss/table.scss generated/css/table.css
+  - sassc scss/form.scss generated/css/form.css
   - mkdir -p generated/js
   - cp -r js generated
