@@ -15,12 +15,26 @@ header {
   margin: 100px 0 25px 0;
   font-size: 2.3em;
   text-align: center;
-  letter-spacing: 7px; }
+  letter-spacing: 5px; }
 
-body {
+h1 {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 5px; }
+
+* {
   font-family: 'Lato', sans-serif;
   background: white;
   color: black; }
+
+body {
+  padding: 4rem; }
+
+main {
+  margin-right: auto;
+  margin-left: auto; }
 
 .content_404 {
   padding: 41px 0px 0px 0px;

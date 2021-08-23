@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
-  <title>GRB</title>
+  <title>GYM</title>
   <id>http://localhost</id>
-  <updated>2021-08-22T14:27:33+03:00</updated>
-  <subtitle>hm</subtitle>
+  <updated>2021-08-23T15:23:40+03:00</updated>
+  <subtitle>Спортивный клуб по художественной гимнастике GYMPWR является центром, который предоставляет возможность заниматься художественной гимнастикой на профессиональном уровне и принимать участие в соревнованиях, а так же по результатам турниров и соревнований ученицам присваиваются разряды (юношеские и спортивные).</subtitle>
   <link href="http://localhost"></link>
-  <author>
-    <name>instagram.com/jkbgm</name>
-  </author>
+  <author></author>
 </feed>

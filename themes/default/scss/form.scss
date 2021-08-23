@@ -15,12 +15,10 @@ input {
     outline: none;
     color: black;
     border: solid 1px black;
-    border-bottom: none;
 }
 
-textarea:hover {
-    background: white;
-    color: black;
+#name {
+    border-bottom: none;
 }
 
 #submit {

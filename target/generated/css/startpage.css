@@ -9,10 +9,12 @@ body header {
     line-height: 60px;
     width: 100%; }
     body header nav a {
+      border: 3px solid green;
       color: black;
+      display: inline-block;
       margin: auto;
       padding: 10px 15px;
-      line-height: 1;
+      line-height: 3;
       text-decoration: none;
       font-size: xx-large; }
 

@@ -17,11 +17,12 @@ body {
             line-height: 60px;
             width: 100%;
             a {
+                border: 3px solid green;
                 color: rgb(0, 0, 0);
-                // display: inline-block;
+                display: inline-block;
                 margin: auto;
                 padding: 10px 15px;
-                line-height: 1;
+                line-height: 3;
                 text-decoration: none;
                 font-size: xx-large;
             }

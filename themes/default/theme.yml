@@ -6,6 +6,10 @@ types:
     template: startpage.html
   not-found:
     template: not-found.html
+  about:
+    template: about.html
+  online:
+    template: online.html
 build:
   # Here you can specify commands you need to run in order to build
   # your theme, like generating CSS.

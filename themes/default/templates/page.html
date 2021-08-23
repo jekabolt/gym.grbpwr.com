@@ -2,21 +2,23 @@
 <html lang="en">
 
 <head>
-    <title>{{.Page.Title}}</title>
+    <title>{{.Meta.Title}}</title>
+    <link rel="icon" href="/static/img/grb-logo.ico">
     <meta name="author" content="{{.Meta.Author}}" />
-    <meta name="description" content="{{.Page.Description}}" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <meta name="description" content="{{.Meta.Description}}" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" type="text/css" href="/generated/css/startpage.css" />
-
+    <link rel="stylesheet" type="text/css" href="/generated/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/table.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/form.css" />
 </head>
 
 <body>
     <header>
         <nav>
             <a href="/"> <img id="logo" src="/static/img/grb-logo.svg" alt="G3"> </a>
-            <a href="/about">about</a>
-            <!-- <a href="/gallery">Gallery</a> -->
-            <a href="/contacts">contacts</a>
+            <a href="/about">о клубе</a>
+            <a href="/online">онлайн</a>
         </nav>
     </header>
     <hr>
@@ -28,10 +30,7 @@
         <!-- <img src="{{.Page.Img}}" alt="{{.Page.Title}}" /> -->
         <!-- <p><small>Image: {{.Page.Credit}}</small></p> -->
         <!-- {{end}}  -->
-
-        {{if .Page.Date}}
-        <!-- <p>Posted on {{.Page.Date.Format "Jan 2 2006"}}</p> -->
-        {{end}} {{.Page.Content}}
+        {{.Page.Content}}
 
     </main>
     <aside>
@@ -41,9 +40,5 @@
         {{end}} -->
     </aside>
 </body>
-
-<script src="/generated/js/embed-video.js"></script>
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
 
 </html>
