@@ -21,5 +21,7 @@ build:
   - sassc scss/not-found.scss generated/css/not-found.css
   - sassc scss/table.scss generated/css/table.css
   - sassc scss/form.scss generated/css/form.css
+  - sassc scss/header.scss generated/css/header.css
+  - sassc scss/footer.scss generated/css/footer.css
   - mkdir -p generated/js
   - cp -r js generated

@@ -11,15 +11,18 @@
     <link rel="stylesheet" type="text/css" href="/generated/css/common.css" />
     <link rel="stylesheet" type="text/css" href="/generated/css/table.css" />
     <link rel="stylesheet" type="text/css" href="/generated/css/form.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/header.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="/"> <img id="logo" src="/static/img/grb-logo.svg" alt="G3"> </a>
-            <a href="/about">о клубе</a>
-            <a href="/online">онлайн</a>
-        </nav>
+    <header class="header">
+        <a href="/"> <img id="logo" src="/static/img/grb-logo.svg" alt="G3"> </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="/about">о клубе</a></li>
+            <li><a href="/online">онлайн</a></li>
+        </ul>
     </header>
     <hr>
     <main>
