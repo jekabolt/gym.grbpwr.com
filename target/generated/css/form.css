@@ -6,7 +6,7 @@
 
 input {
   font-family: 'Lato', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   width: 690px;
   height: 90px;
   padding: 0px 15px 0px 15px;
@@ -23,7 +23,7 @@ input {
   padding: 0;
   margin: -5px 0px 0px 0px;
   font-family: 'Lato', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   color: black;
   outline: none;
   cursor: pointer;

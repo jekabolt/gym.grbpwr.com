@@ -10,6 +10,10 @@
   color: #000000;
   line-height: 22px; }
 
+:root {
+  touch-action: pan-x pan-y;
+  height: 100%; }
+
 header {
   position: relative;
   margin: 100px 0 25px 0;
