@@ -23,5 +23,6 @@ build:
   - sassc scss/form.scss generated/css/form.css
   - sassc scss/header.scss generated/css/header.css
   - sassc scss/footer.scss generated/css/footer.css
+  - sassc scss/about.scss generated/css/about.css
   - mkdir -p generated/js
   - cp -r js generated
