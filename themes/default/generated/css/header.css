@@ -32,6 +32,7 @@ a {
 
 /* menu */
 .header .menu {
+  font-size: 0.6em;
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out; }

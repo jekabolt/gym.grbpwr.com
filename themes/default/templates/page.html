@@ -21,8 +21,10 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-            <li><a href="/about">о клубе</a></li>
+            <li><a href="/about">о клубе</a>
+            </li>
             <li><a href="/online">онлайн</a></li>
+            <li><a href="/competitions">соревнования</a></li>
         </ul>
     </header>
     <hr>
@@ -31,9 +33,7 @@
         <h4>{{.Page.Description}}</h4>
         <br>
         <br>
-        <br>
-    
-        {{.Page.Content}}
+        <br> {{.Page.Content}}
 
     </main>
     <aside>
