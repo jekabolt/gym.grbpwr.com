@@ -10,6 +10,8 @@ types:
     template: about.html
   online:
     template: online.html
+  competitions:
+    template: competitions.html
 build:
   # Here you can specify commands you need to run in order to build
   # your theme, like generating CSS.

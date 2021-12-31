@@ -3,25 +3,21 @@
 
 <head>
     <title>{{.Meta.Title}}</title>
+    <link rel="icon" href="/static/img/grb-logo.ico">
     <meta name="author" content="{{.Meta.Author}}" />
     <meta name="description" content="{{.Meta.Description}}" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="/generated/css/startpage.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/table.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/form.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="/generated/css/about.css" />
 </head>
 
 <body>
     <main>
-        {{range $page := .Pages}}
-        <div>
-            <h3>{{$page.Title}}</h3>
-            <!-- <p><small>Posted on {{$page.Date.Format "Jan 2 2006"}}</small></p> -->
-            <p>{{$page.Description}}</p>
-            <p><a href="{{$page.Href}}">read post</a></p>
-        </div>
-        <p>
-            Tags: {{range $tag := $page.Tags}}
-            <a href={{$tag.Href}}>{{$tag}}</a> {{end}}
-        </p>
-        {{end}}
+        {{range $page := .Pages}} {{end}}
     </main>
 </body>
 
